@@ -5,11 +5,15 @@
 
 ## Table of Contents
 - [Project Summary](#project-summary)
+- [Demo video](#demo-video)
 - [Features](#features)
 - [File Structure](#file-structure)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
 - [License](#license)
+
+## Demo video
+Watch the demo video here: [Video](https://go.screenpal.com/watch/cZioFGVPhjM).
 
 ## Features
 - Fully developed using ReactJS
@@ -65,7 +69,6 @@ App.js
 index.css
 index.js
     
-
 ## Installation
 To set up the "Easy Learn" application on your local machine, follow these steps:
 
@@ -94,5 +97,4 @@ npm start
 This will start the development server, and you can view the application in your browser at http://localhost:3000.
 
 ## License
-
 Feel free to adjust the file paths, repository URL, and other specifics according to your actual project setup. This structure gives users a clear overview of the project and instructions on how to get it up and running.
