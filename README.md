@@ -71,12 +71,12 @@ To set up the "Easy Learn" application on your local machine, follow these steps
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/easy-learn.git
+    git clone https://github.com/nagakushal786/Easy-Learn.git
     ```
 
 2. **Navigate to the project directory:**
     ```sh
-    cd easy-learn
+    cd Easy-Learn
     ```
 
 3. **Install the dependencies:**
