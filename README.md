@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Easy Learn - Your personalized learning App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Summary
+"Easy Learn" is a comprehensive E-learning platform designed to teach various coding technologies. Developed entirely using ReactJS with robust error handling, this personalized platform offers structured, journey-wise modules dedicated to each topic. Additionally, it includes a feedback page where users can share their thoughts on their learning experience.
 
-## Available Scripts
+## Table of Contents
+- [Project Summary](#project-summary)
+- [Features](#features)
+- [File Structure](#file-structure)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [License](#license)
 
-In the project directory, you can run:
+## Features
+- Fully developed using ReactJS
+- Error handling integrated
+- Journey-wise learning modules
+- Dedicated modules for each topic
+- Feedback page for user reviews
 
-### `npm start`
+## File Structure
+- src
+  - components
+    - card
+      - index.jsx
+      - style.module.css
+    - error-toast
+      - ErrorToast.jsx
+      - ErrorToast.module.css
+    - loader
+      - Loader.jsx
+      - Loader.module.css
+    - nav
+      - Nav.jsx
+      - Nav.module.css
+  - context
+    - Theme.context.js
+  - data
+    - courses.json
+  - pages
+    - app
+      - chapter
+        - Chapter.jsx
+        - Chapter.module.css
+      - courses
+        - Courses.jsx
+        - Courses.module.css
+      - details
+        - Details.jsx
+        - Details.module.css
+      - feedback
+        - FeedBack.jsx
+        - FeedBack.module.css
+      - hero
+        - Hero.jsx
+        - Hero.module.css
+      - learn
+        - Learn.jsx
+        - Learn.module.css
+    - misc
+      - Page404
+        - Page404.jsx
+        - Page404.module.jsx
+App.js
+index.css
+index.js
+    
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+To set up the "Easy Learn" application on your local machine, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/yourusername/easy-learn.git
+    ```
 
-### `npm test`
+2. **Navigate to the project directory:**
+    ```sh
+    cd easy-learn
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Install the dependencies:**
+    ```sh
+    npm install
+    ```
 
-### `npm run build`
+## Running the Application
+Once the dependencies are installed, you can run the application using the following command:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This will start the development server, and you can view the application in your browser at http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to adjust the file paths, repository URL, and other specifics according to your actual project setup. This structure gives users a clear overview of the project and instructions on how to get it up and running.
