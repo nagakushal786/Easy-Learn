@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.errorTitle {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #e57373;
+}
+
+.errorSubtitle {
+  font-size: 2rem;
+  color: #ccc;
+  margin: 20px 0;
+}
+
+.errorDescription {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #aaa;
+  padding: 0 20px;
+}
+
+.errorDescription code {
+  background-color: #333;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  color: #ff8a65;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #76ff03;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #64dd17;
+}
